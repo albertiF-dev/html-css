@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            Recomendado usar px para telas.
+             Medidas Absolutas são fixas e não se adaptam ao tamanho da tela do usuário.
+             Medidas Relativas
+             em, ex, rem, vw, vh, %
+             16 px geralmente é igual a 1em ou 100% do tamanho da fonte padrão.
+             Recomendação oficial: usar'em', recomandado pela W3C.
+             */
+            font-size: 1em; /* 1em é igual a 16px */
+        }
+
+        h1 {
+            
+            /*  shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem aspernatur in praesentium eius iure odit veniam, dolores nam labore, expedita quis qui, maxime incidunt distinctio. Asperiores natus nam pariatur quisquam! Além disso, é fundamental compreender como as fontes influenciam a legibilidade e o design de uma página web. Escolher o tipo, tamanho e espaçamento corretos pode melhorar significativamente a experiência do usuário. Ao trabalhar com CSS, experimente diferentes combinações para encontrar o estilo que melhor se adapta ao seu projeto. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis, enim nec cursus dictum, urna erat dictum massa, nec cursus enim urna eu erat. Vivamus at velit nec urna cursus tincidunt. Teste diferentes fontes e observe como pequenas mudanças podem transformar o visual do seu site.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus commodi culpa, atque amet dignissimos facere accusantium? Quasi libero quibusdam quas, perspiciatis officia, minus molestias sapiente eaque assumenda dolorum aliquam ea.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorum rerum officia nisi accusantium, nostrum iusto, corporis omnis excepturi nesciunt natus cum, totam beatae delectus id molestiae. Quos, veritatis nihil. Além disso, é fundamental compreender como as fontes influenciam a legibilidade e o design de uma página web. Escolher o tipo, tamanho e espaçamento corretos pode melhorar significativamente a experiência do usuário. Ao trabalhar com CSS, experimente diferentes combinações para encontrar o estilo que melhor se adapta ao seu projeto. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin facilisis, enim nec cursus dictum, urna erat dictum massa, nec cursus enim urna eu erat. Vivamus at velit nec urna cursus tincidunt. Teste diferentes fontes e observe como pequenas mudanças podem transformar o visual do seu site.</p>
+</body>
+</html>

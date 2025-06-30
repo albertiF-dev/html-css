@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            width: 600px;
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px 20px 20px 20px;
+        }
+
+        nav {
+            background-color: rgb(192, 192, 119);
+            padding: 15px;
+            border: 2px solid rgba(51, 51, 51, 0.25);
+            box-shadow:
+                0px 0px 0px 2px rgba(51, 51, 51, 0.10),   /* halo logo fora da borda */
+                0px 0px 8px 4px rgba(51, 51, 51, 0.13), /* sombra mais espalhada */
+                0px 0px 16px 8px rgba(51, 51, 51, 0.10),/* sombra ainda mais difusa */
+                0px 0px 8px 2px rgba(51, 51, 51, 0.18) inset; /* sombra interna */
+            border-radius: 10px;
+            box-shadow: 0 0 12px 4px rgba(184, 135, 11, 0.6);
+        }
+
+        nav > a {
+            padding: auto;
+            margin: auto;
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            margin: 15px;
+            opacity: 0.7;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: darkkhaki;
+            border: 5px solid rgba(184, 135, 11, 0.385);
+            border-style: inset;
+            border-radius: 50%;
+            box-shadow: 5px 5px 5px rgba(232, 168, 5, 0.5), inset 3px 3px 3px rgba(184, 135, 11, 0.5);
+        }
+
+        header > h1 {
+            text-align: center;
+            margin: 6px 9px;
+            font-size: 4em;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px black;
+        }  
+        
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+            margin: 10px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        article > aside > p {
+            display: inline-block;
+            padding: 8px;
+            margin: 0px;
+        }
+
+        footer {
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Ciência</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptates facere reiciendis ipsam dolor. Ab ducimus non odit dolorum nihil amet ex eos eligendi? Consequuntur cupiditate dicta ullam sequi id? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor ducimus ullam aliquid maiores, illo tempore a, eum repellat corporis velit voluptatibus quis consectetur aliquam incidunt in tempora. Animi, hic minus.</p>
+                <aside>
+                    <p>Artigo escrito por Sabe-lá-Quem</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Albertone do Forro</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
