@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -28,8 +29,22 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n - 1*/
+            background-color: whitesmoke;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
         }
 
         td.num {
@@ -175,5 +190,14 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officiis voluptatibus veritatis laudantium! Inventore iste fugiat at incidunt dolor commodi delectus, consequatur harum ea deleniti similique cumque, nam dicta adipisci? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum veritatis similique maiores ipsum est minima dolores voluptatem porro nulla sit, modi voluptatibus repellendus, dolore perspiciatis magni consequatur, hic distinctio magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique praesentium necessitatibus quae at harum cupiditate, facere eligendi quod porro odit fugit fugiat ipsum. Non molestias nostrum eos eligendi voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, officiis, fugiat commodi architecto totam praesentium laboriosam nulla aut et at ducimus necessitatibus consequatur animi? Adipisci consectetur quisquam ipsam fugiat praesentium?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officiis voluptatibus veritatis laudantium! Inventore iste fugiat at incidunt dolor commodi delectus, consequatur harum ea deleniti similique cumque, nam dicta adipisci? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum veritatis similique maiores ipsum est minima dolores voluptatem porro nulla sit, modi voluptatibus repellendus, dolore perspiciatis magni consequatur, hic distinctio magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique praesentium necessitatibus quae at harum cupiditate, facere eligendi quod porro odit fugit fugiat ipsum. Non molestias nostrum eos eligendi voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, officiis, fugiat commodi architecto totam praesentium laboriosam nulla aut et at ducimus necessitatibus consequatur animi? Adipisci consectetur quisquam ipsam fugiat praesentium?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officiis voluptatibus veritatis laudantium! Inventore iste fugiat at incidunt dolor commodi delectus, consequatur harum ea deleniti similique cumque, nam dicta adipisci? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum veritatis similique maiores ipsum est minima dolores voluptatem porro nulla sit, modi voluptatibus repellendus, dolore perspiciatis magni consequatur, hic distinctio magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique praesentium necessitatibus quae at harum cupiditate, facere eligendi quod porro odit fugit fugiat ipsum. Non molestias nostrum eos eligendi voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, officiis, fugiat commodi architecto totam praesentium laboriosam nulla aut et at ducimus necessitatibus consequatur animi? Adipisci consectetur quisquam ipsam fugiat praesentium?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officiis voluptatibus veritatis laudantium! Inventore iste fugiat at incidunt dolor commodi delectus, consequatur harum ea deleniti similique cumque, nam dicta adipisci? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum veritatis similique maiores ipsum est minima dolores voluptatem porro nulla sit, modi voluptatibus repellendus, dolore perspiciatis magni consequatur, hic distinctio magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique praesentium necessitatibus quae at harum cupiditate, facere eligendi quod porro odit fugit fugiat ipsum. Non molestias nostrum eos eligendi voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, officiis, fugiat commodi architecto totam praesentium laboriosam nulla aut et at ducimus necessitatibus consequatur animi? Adipisci consectetur quisquam ipsam fugiat praesentium?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officiis voluptatibus veritatis laudantium! Inventore iste fugiat at incidunt dolor commodi delectus, consequatur harum ea deleniti similique cumque, nam dicta adipisci? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum veritatis similique maiores ipsum est minima dolores voluptatem porro nulla sit, modi voluptatibus repellendus, dolore perspiciatis magni consequatur, hic distinctio magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis similique praesentium necessitatibus quae at harum cupiditate, facere eligendi quod porro odit fugit fugiat ipsum. Non molestias nostrum eos eligendi voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, officiis, fugiat commodi architecto totam praesentium laboriosam nulla aut et at ducimus necessitatibus consequatur animi? Adipisci consectetur quisquam ipsam fugiat praesentium?</p>
 </body>
 </html>
